@@ -121,12 +121,12 @@
   height: 290px;
   object-fit: cover;
 }
-.your-attorneys__arrow-box {
+.your-attorneys__swipe-box {
   height: 95px;
   background-color: #84b403;
   margin-top: -17px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -136,6 +136,11 @@
   font-size: 18px;
   font-family: Montserrat;
   font-weight: 700;
+}
+
+.glide-button {
+  border: none;
+  background-color: #84b403;
 }
 
 // SECTION CIRCLE
