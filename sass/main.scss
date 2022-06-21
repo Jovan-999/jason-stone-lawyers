@@ -6,7 +6,7 @@
 .your-attorneys__small-bio {
   margin-top: 47px;
   margin-left: 43px;
-  @media (max-width: 1200px) {
+  @media (max-width: 1199px) {
     margin: 0;
     margin-top: 47px;
   }
@@ -67,7 +67,7 @@
   left: 40px;
   z-index: 10;
   border: 1px solid #ffffff;
-  @media (max-width: 1200px) {
+  @media (max-width: 1199px) {
     border: 0 none;
     left: 20px;
     bottom: 20px;
@@ -79,7 +79,7 @@
   left: 70px;
   z-index: 10;
   border: 1px solid #ffffff;
-  @media (max-width: 1200px) {
+  @media (max-width: 1199px) {
     border: 0 none;
     left: 20px;
     bottom: 20px;
@@ -88,21 +88,21 @@
 
 .your-attorneys__description-jason {
   padding: 22px 160px 22px 40px;
-  @media (max-width: 1200px) {
+  @media (max-width: 1199px) {
     padding: 0;
   }
 }
 
 .your-attorneys__description-david {
   padding: 22px 90px 22px 40px;
-  @media (max-width: 1200px) {
+  @media (max-width: 1199px) {
     padding: 0;
   }
 }
 
 .your-attorneys__description-michelle {
   padding: 22px 80px 22px 40px;
-  @media (max-width: 1200px) {
+  @media (max-width: 1199px) {
     padding: 0;
   }
 }
@@ -117,7 +117,7 @@
 .your-attorneys__description-marc,
 .your-attorneys__description-danielle {
   padding: 22px 70px 22px 40px;
-  @media (max-width: 1200px) {
+  @media (max-width: 1199px) {
     padding: 0;
   }
 }
@@ -131,7 +131,7 @@
   @media (max-width: 1400px) {
     font-size: 30px;
   }
-  @media (max-width: 1200px) {
+  @media (max-width: 1199px) {
     font-size: 20px;
   }
 }
@@ -139,7 +139,7 @@
   font-size: 20px;
   color: #ffffff;
   text-shadow: 0 3px 6px #000000;
-  @media (max-width: 1200px) {
+  @media (max-width: 1199px) {
     font-size: 16px;
   }
   @media (max-width: 576px) {
