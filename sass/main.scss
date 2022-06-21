@@ -35,7 +35,10 @@
   position: relative;
   height: 100%;
   width: 100%;
-  @media (max-width: 576px) {
+  // @media (max-width: 576px) {
+  //   display: none;
+  // }
+  @media (max-width: 575px) {
     position: absolute;
     top: 200px;
     left: 30px;
@@ -150,11 +153,11 @@
   object-fit: cover;
 }
 
-.your-attorneys__tablet {
-  @media (max-width: 576px) {
-    display: none;
-  }
-}
+// .your-attorneys__tablet {
+//   @media (max-width: 576px) {
+//     display: none;
+//   }
+// }
 
 // SECTION FOR MOBILE VERSION
 
