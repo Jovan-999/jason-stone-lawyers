@@ -35,9 +35,6 @@
   position: relative;
   height: 100%;
   width: 100%;
-  // @media (max-width: 576px) {
-  //   display: none;
-  // }
   @media (max-width: 575px) {
     position: absolute;
     top: 200px;
@@ -52,71 +49,23 @@
 }
 
 .your-attorneys__description-jason,
-.your-attorneys__description-david,
-.your-attorneys__description-michelle,
-.your-attorneys__description-sean,
-.your-attorneys__description-ross,
-.your-attorneys__description-natalie,
-.your-attorneys__description-katherine,
-.your-attorneys__description-carly,
-.your-attorneys__description-gregory,
-.your-attorneys__description-marc,
-.your-attorneys__description-danielle {
+.your-attorneys__description-lawyer {
   position: absolute;
   bottom: 35px;
   left: 40px;
   z-index: 10;
+  padding: 22px 40px;
   border: 1px solid #ffffff;
   @media (max-width: 1199px) {
     border: 0 none;
     left: 20px;
     bottom: 20px;
-  }
-}
-.your-attorneys__description-brendan {
-  position: absolute;
-  bottom: 35px;
-  left: 70px;
-  z-index: 10;
-  border: 1px solid #ffffff;
-  @media (max-width: 1199px) {
-    border: 0 none;
-    left: 20px;
-    bottom: 20px;
+    padding: 0;
   }
 }
 
 .your-attorneys__description-jason {
   padding: 22px 160px 22px 40px;
-  @media (max-width: 1199px) {
-    padding: 0;
-  }
-}
-
-.your-attorneys__description-david {
-  padding: 22px 90px 22px 40px;
-  @media (max-width: 1199px) {
-    padding: 0;
-  }
-}
-
-.your-attorneys__description-michelle {
-  padding: 22px 80px 22px 40px;
-  @media (max-width: 1199px) {
-    padding: 0;
-  }
-}
-
-.your-attorneys__description-sean,
-.your-attorneys__description-ross,
-.your-attorneys__description-natalie,
-.your-attorneys__description-katherine,
-.your-attorneys__description-carly,
-.your-attorneys__description-gregory,
-.your-attorneys__description-brendan,
-.your-attorneys__description-marc,
-.your-attorneys__description-danielle {
-  padding: 22px 70px 22px 40px;
   @media (max-width: 1199px) {
     padding: 0;
   }
@@ -152,12 +101,6 @@
   width: 100%;
   object-fit: cover;
 }
-
-// .your-attorneys__tablet {
-//   @media (max-width: 576px) {
-//     display: none;
-//   }
-// }
 
 // SECTION FOR MOBILE VERSION
 
